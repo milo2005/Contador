@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:stretchColumns="*"
+    tools:context="com.example.estacionvl_tc_014.contador.MainActivity">
+
+    <TextView
+        style="@style/Base.TextAppearance.AppCompat.Display4"
+        android:id="@+id/seconds"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="00"
+        />
+    <TableRow>
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            />
+        <Button
+            android:id="@+id/btn_pause"
+            android:layout_height="wrap_content"
+            android:text="Pause"
+            />
+        <Button
+            android:id="@+id/btn_stop"
+            android:layout_height="wrap_content"
+            android:text="Stop"
+            />
+    </TableRow>
+</TableLayout>
